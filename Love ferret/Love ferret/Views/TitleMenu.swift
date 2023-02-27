@@ -10,13 +10,14 @@ import SwiftUI
 struct TitleMenu: View {
     var body: some View {
         Text("Love Ferret")
-            .font(.system(size: 50))
+            .padding(.bottom, -35)
+            .font(.system(size: 40))
             .foregroundColor(.white)
             .fontWeight(.medium)
-            //.padding(.bottom, 800)
             .frame(width: 500, height: 100)
             .background(Color.purple)
-            .offset(y:-400)
+            .offset(y:-430)
+            
     }
 }
 

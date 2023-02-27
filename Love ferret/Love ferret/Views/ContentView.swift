@@ -11,9 +11,11 @@ struct ContentView: View {
     var body: some View {
         VStack {
             TitleMenu()
-                .offset(y: 110)
+                .offset(y: 140)
             ProfilePhoto()
                 .offset(x: -100, y: -50)
+            NavBar()
+                .offset(y: -175)
         }
     }
 }
