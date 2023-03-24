@@ -7,16 +7,6 @@
 
 import SwiftUI
 
-struct ButtonStyles: ButtonStyle {
-    func makeBody(configuration: Self.Configuration) -> some View {
-            configuration.label
-                .frame(width: 40, height: 40)
-                .foregroundColor(Color.white)
-                .padding()
-                .scaleEffect(configuration.isPressed ? 1.3 : 1.0)
-        }
-}
-
 struct NavBar: View {
     var body: some View {
         HStack {
@@ -25,22 +15,22 @@ struct NavBar: View {
             }) {
                 Image(systemName: "house.fill")
                     .resizable()
-            }.buttonStyle(ButtonStyles())
+            }.buttonStyle(StylesButton())
             Button(action: {
                 print("pipi")
             }) {
                 Image(systemName: "photo")
                     .resizable()
-            }.buttonStyle(ButtonStyles())
+            }.buttonStyle(StylesButton())
             Button(action: {
                 print("pipi")
             }) {
                 Image(systemName: "gear")
                     .resizable()
-            }.buttonStyle(ButtonStyles())
+            }.buttonStyle(StylesButton())
         }
         .frame(maxWidth: .infinity)
-        .background(Color.purple)
+        .background(Color("Primary"))
         .offset(y:420)
     }
 }

@@ -9,13 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
         VStack {
             TitleMenu()
-                .offset(y: 140)
-            ProfilePhoto()
+                .offset(y: 145)
+            ProfilePhoto(profile: profiles[0])
                 .offset(x: -100, y: -50)
             NavBar()
-                .offset(y: -175)
+                .offset(y: -160)
         }
     }
 }
