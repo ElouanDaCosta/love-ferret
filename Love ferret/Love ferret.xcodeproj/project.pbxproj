@@ -24,7 +24,7 @@
 		4D2487CB29A554C500AD4423 /* Love ferret.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love ferret.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D2487CE29A554C500AD4423 /* Love_ferretApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Love_ferretApp.swift; sourceTree = "<group>"; };
 		4D2487D029A554C500AD4423 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4D2487D229A554C600AD4423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Love ferret/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		4D2487D229A554C600AD4423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D2487D429A554C600AD4423 /* Love_ferret.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Love_ferret.entitlements; sourceTree = "<group>"; };
 		4D2487D629A554C600AD4423 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D2487DE29A5560400AD4423 /* ProfileMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMenu.swift; sourceTree = "<group>"; };
@@ -151,9 +151,6 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				KnownAssetTags = (
-					New,
-				);
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {

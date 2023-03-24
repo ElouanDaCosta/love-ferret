@@ -12,12 +12,13 @@ struct ProfilePhoto: View {
     
     var body: some View {
         VStack {
-            profile.image
+            Image(profile.imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .clipShape(RoundedRectangle(cornerRadius: 25, style: .continuous))
                 .frame(width: 200.0, height: 200.0)
             Text(profile.name)
+                .font(.system(size: 25))
             
         }
     }

@@ -12,9 +12,5 @@ struct Profile: Hashable, Codable {
     var name: String
     var description: String
     var sex: String
-    
-    private var imageName: String
-    var image: Image {
-        Image(imageName)
-    }
+    var imageName: String
 }
