@@ -19,7 +19,6 @@ struct FerretProfileView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 75, style: .continuous))
                     .frame(width: 600.0, height: 600.0)
                     .offset(y: -100)
-                
                 Text(furet.name)
                     .font(.system(size: 55))
                     .offset(y: -110)
@@ -27,8 +26,6 @@ struct FerretProfileView: View {
                     .frame(maxWidth: 400, alignment: .leading)
                     .offset(y: -40)
                     .font(.largeTitle)
-                
-                
                 Text(furet.description)
                     .font(.system(size: 20))
                     .offset(y: -10)

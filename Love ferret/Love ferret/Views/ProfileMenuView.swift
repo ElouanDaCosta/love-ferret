@@ -19,6 +19,7 @@ struct ProfilePhoto: View {
                 .frame(width: 200.0, height: 200.0)
             Text(furet.name)
                 .font(.system(size: 25))
+                .foregroundColor(.black)
             
         }
     }
