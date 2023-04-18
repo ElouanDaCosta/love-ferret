@@ -16,7 +16,7 @@ struct TitleMenu: View {
             .fontWeight(.medium)
             .frame(width: 500, height: 100)
             .background(Color("Primary"))
-            .offset(y:-430)
+            //.offset(y:-430)
             
     }
 }

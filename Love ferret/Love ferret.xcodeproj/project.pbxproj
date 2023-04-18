@@ -11,13 +11,15 @@
 		4D2487D129A554C500AD4423 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2487D029A554C500AD4423 /* ContentView.swift */; };
 		4D2487D329A554C600AD4423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2487D229A554C600AD4423 /* Assets.xcassets */; };
 		4D2487D729A554C600AD4423 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2487D629A554C600AD4423 /* Preview Assets.xcassets */; };
-		4D2487DF29A5560400AD4423 /* ProfileMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2487DE29A5560400AD4423 /* ProfileMenu.swift */; };
-		4D2487E129A55C6300AD4423 /* TitleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2487E029A55C6300AD4423 /* TitleMenu.swift */; };
-		4D2B889A29CE459E000F5172 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2B889929CE459E000F5172 /* Profile.swift */; };
+		4D2487DF29A5560400AD4423 /* ProfileMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2487DE29A5560400AD4423 /* ProfileMenuView.swift */; };
+		4D2487E129A55C6300AD4423 /* TitleMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2487E029A55C6300AD4423 /* TitleMenuView.swift */; };
+		4D2B889A29CE459E000F5172 /* Furet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2B889929CE459E000F5172 /* Furet.swift */; };
 		4D2B889C29CE469C000F5172 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2B889B29CE469C000F5172 /* ModelData.swift */; };
-		4D2B889F29CE530C000F5172 /* profilesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D2B889E29CE530C000F5172 /* profilesData.json */; };
-		4D94063429AD470300C42B7D /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D94063329AD470300C42B7D /* NavBar.swift */; };
+		4D2B889F29CE530C000F5172 /* furets.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D2B889E29CE530C000F5172 /* furets.json */; };
+		4D94063429AD470300C42B7D /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D94063329AD470300C42B7D /* NavBarView.swift */; };
 		4D94063729AD53F600C42B7D /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D94063629AD53F600C42B7D /* Style.swift */; };
+		4DF7014129EEF13D003AF578 /* FerretProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7014029EEF13D003AF578 /* FerretProfileView.swift */; };
+		4DF7014329EF00A3003AF578 /* ProfileButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7014229EF00A3003AF578 /* ProfileButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,13 +29,15 @@
 		4D2487D229A554C600AD4423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D2487D429A554C600AD4423 /* Love_ferret.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Love_ferret.entitlements; sourceTree = "<group>"; };
 		4D2487D629A554C600AD4423 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4D2487DE29A5560400AD4423 /* ProfileMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMenu.swift; sourceTree = "<group>"; };
-		4D2487E029A55C6300AD4423 /* TitleMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleMenu.swift; sourceTree = "<group>"; };
-		4D2B889929CE459E000F5172 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		4D2487DE29A5560400AD4423 /* ProfileMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMenuView.swift; sourceTree = "<group>"; };
+		4D2487E029A55C6300AD4423 /* TitleMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleMenuView.swift; sourceTree = "<group>"; };
+		4D2B889929CE459E000F5172 /* Furet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furet.swift; sourceTree = "<group>"; };
 		4D2B889B29CE469C000F5172 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		4D2B889E29CE530C000F5172 /* profilesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = profilesData.json; path = "Love ferret/Resources/profilesData.json"; sourceTree = SOURCE_ROOT; };
-		4D94063329AD470300C42B7D /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		4D2B889E29CE530C000F5172 /* furets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = furets.json; path = "Love ferret/Resources/furets.json"; sourceTree = SOURCE_ROOT; };
+		4D94063329AD470300C42B7D /* NavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
 		4D94063629AD53F600C42B7D /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		4DF7014029EEF13D003AF578 /* FerretProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerretProfileView.swift; sourceTree = "<group>"; };
+		4DF7014229EF00A3003AF578 /* ProfileButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileButtonView.swift; sourceTree = "<group>"; };
 		4DFB8E9629B7F396006BAFA0 /* GalleryData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GalleryData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,9 +95,11 @@
 			isa = PBXGroup;
 			children = (
 				4D2487D029A554C500AD4423 /* ContentView.swift */,
-				4D2487DE29A5560400AD4423 /* ProfileMenu.swift */,
-				4D2487E029A55C6300AD4423 /* TitleMenu.swift */,
-				4D94063329AD470300C42B7D /* NavBar.swift */,
+				4D2487DE29A5560400AD4423 /* ProfileMenuView.swift */,
+				4D2487E029A55C6300AD4423 /* TitleMenuView.swift */,
+				4D94063329AD470300C42B7D /* NavBarView.swift */,
+				4DF7014029EEF13D003AF578 /* FerretProfileView.swift */,
+				4DF7014229EF00A3003AF578 /* ProfileButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -101,7 +107,7 @@
 		4D2B889829CE4587000F5172 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4D2B889929CE459E000F5172 /* Profile.swift */,
+				4D2B889929CE459E000F5172 /* Furet.swift */,
 				4D2B889B29CE469C000F5172 /* ModelData.swift */,
 			);
 			path = Model;
@@ -119,7 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				4DFB8E9629B7F396006BAFA0 /* GalleryData.json */,
-				4D2B889E29CE530C000F5172 /* profilesData.json */,
+				4D2B889E29CE530C000F5172 /* furets.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -183,7 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D2487D729A554C600AD4423 /* Preview Assets.xcassets in Resources */,
-				4D2B889F29CE530C000F5172 /* profilesData.json in Resources */,
+				4D2B889F29CE530C000F5172 /* furets.json in Resources */,
 				4D2487D329A554C600AD4423 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,14 +201,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D94063429AD470300C42B7D /* NavBar.swift in Sources */,
+				4D94063429AD470300C42B7D /* NavBarView.swift in Sources */,
 				4D94063729AD53F600C42B7D /* Style.swift in Sources */,
 				4D2487D129A554C500AD4423 /* ContentView.swift in Sources */,
-				4D2B889A29CE459E000F5172 /* Profile.swift in Sources */,
-				4D2487E129A55C6300AD4423 /* TitleMenu.swift in Sources */,
+				4D2B889A29CE459E000F5172 /* Furet.swift in Sources */,
+				4DF7014329EF00A3003AF578 /* ProfileButtonView.swift in Sources */,
+				4D2487E129A55C6300AD4423 /* TitleMenuView.swift in Sources */,
 				4D2B889C29CE469C000F5172 /* ModelData.swift in Sources */,
+				4DF7014129EEF13D003AF578 /* FerretProfileView.swift in Sources */,
 				4D2487CF29A554C500AD4423 /* Love_ferretApp.swift in Sources */,
-				4D2487DF29A5560400AD4423 /* ProfileMenu.swift in Sources */,
+				4D2487DF29A5560400AD4423 /* ProfileMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

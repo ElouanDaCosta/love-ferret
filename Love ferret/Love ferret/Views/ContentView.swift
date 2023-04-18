@@ -8,15 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    let profiles: [Furet] = loadFuretData()
+    
     var body: some View {
         
         VStack {
             TitleMenu()
-                .offset(y: 145)
-            ProfilePhoto(profile: profiles[0])
-                .offset(x: -100, y: -50)
+                .offset(y: -255)
+            HStack {
+                ForEach(profiles) { profile in
+                    ProfileButton(furet: profile)
+                        .offset(y: -50)
+                }
+            }
             NavBar()
-                .offset(y: -160)
+                .offset(y: 225)
         }
     }
 }

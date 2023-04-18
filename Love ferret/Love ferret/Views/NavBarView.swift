@@ -11,19 +11,16 @@ struct NavBar: View {
     var body: some View {
         HStack {
             Button(action: {
-                print("pipi")
             }) {
                 Image(systemName: "house.fill")
                     .resizable()
             }.buttonStyle(StylesButton())
             Button(action: {
-                print("pipi")
             }) {
                 Image(systemName: "photo")
                     .resizable()
             }.buttonStyle(StylesButton())
             Button(action: {
-                print("pipi")
             }) {
                 Image(systemName: "gear")
                     .resizable()
@@ -31,7 +28,7 @@ struct NavBar: View {
         }
         .frame(maxWidth: .infinity)
         .background(Color("Primary"))
-        .offset(y:420)
+        //.offset(y:420)
     }
 }
 

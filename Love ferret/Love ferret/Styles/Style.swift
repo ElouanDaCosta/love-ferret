@@ -13,7 +13,7 @@ struct StylesButton: ButtonStyle {
                 .frame(width: 40, height: 40)
                 .foregroundColor(Color.white)
                 .padding()
-                .scaleEffect(configuration.isPressed ? 0.7 : 1.0)
+                .scaleEffect(configuration.isPressed ? 0.8 : 1.0)
         }
 }
 

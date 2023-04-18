@@ -7,7 +7,7 @@
 import Foundation
 import SwiftUI
 
-struct Profile: Hashable, Codable {
+struct Furet: Identifiable, Codable {
     var id: Int
     var name: String
     var description: String

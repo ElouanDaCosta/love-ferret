@@ -8,16 +8,16 @@
 import SwiftUI
 
 struct ProfilePhoto: View {
-    var profile: Profile
+    var furet: Furet
     
     var body: some View {
         VStack {
-            Image(profile.imageName)
+            Image(furet.imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .clipShape(RoundedRectangle(cornerRadius: 25, style: .continuous))
                 .frame(width: 200.0, height: 200.0)
-            Text(profile.name)
+            Text(furet.name)
                 .font(.system(size: 25))
             
         }
@@ -26,6 +26,6 @@ struct ProfilePhoto: View {
 
 struct ProfilePhoto_Previews: PreviewProvider {
     static var previews: some View {
-        ProfilePhoto(profile: profiles[0])
+        ProfilePhoto(furet: loadFuretData()[0])
     }
 }
