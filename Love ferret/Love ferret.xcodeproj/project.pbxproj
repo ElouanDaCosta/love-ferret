@@ -20,7 +20,36 @@
 		4D94063729AD53F600C42B7D /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D94063629AD53F600C42B7D /* Style.swift */; };
 		4DF7014129EEF13D003AF578 /* FerretProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7014029EEF13D003AF578 /* FerretProfileView.swift */; };
 		4DF7014329EF00A3003AF578 /* ProfileButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7014229EF00A3003AF578 /* ProfileButtonView.swift */; };
+		4DF7014B29EF16AA003AF578 /* ferret_loveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7014A29EF16AA003AF578 /* ferret_loveApp.swift */; };
+		4DF7014D29EF16AA003AF578 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7014C29EF16AA003AF578 /* ContentView.swift */; };
+		4DF7014F29EF16AB003AF578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF7014E29EF16AB003AF578 /* Assets.xcassets */; };
+		4DF7015229EF16AB003AF578 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF7015129EF16AB003AF578 /* Preview Assets.xcassets */; };
+		4DF7015529EF16AB003AF578 /* ferret love Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4DF7014829EF16AA003AF578 /* ferret love Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DF7015329EF16AB003AF578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D2487C329A554C500AD4423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF7014729EF16AA003AF578;
+			remoteInfo = "ferret love Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4DF7015929EF16AB003AF578 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4DF7015529EF16AB003AF578 /* ferret love Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4D2487CB29A554C500AD4423 /* Love ferret.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love ferret.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,11 +67,23 @@
 		4D94063629AD53F600C42B7D /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		4DF7014029EEF13D003AF578 /* FerretProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerretProfileView.swift; sourceTree = "<group>"; };
 		4DF7014229EF00A3003AF578 /* ProfileButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileButtonView.swift; sourceTree = "<group>"; };
+		4DF7014829EF16AA003AF578 /* ferret love Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ferret love Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF7014A29EF16AA003AF578 /* ferret_loveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ferret_loveApp.swift; sourceTree = "<group>"; };
+		4DF7014C29EF16AA003AF578 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4DF7014E29EF16AB003AF578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DF7015129EF16AB003AF578 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4DFB8E9629B7F396006BAFA0 /* GalleryData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GalleryData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4D2487C829A554C500AD4423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF7014529EF16AA003AF578 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				4D2487CD29A554C500AD4423 /* Love ferret */,
+				4DF7014929EF16AA003AF578 /* ferret love Watch App */,
 				4D2487CC29A554C500AD4423 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				4D2487CB29A554C500AD4423 /* Love ferret.app */,
+				4DF7014829EF16AA003AF578 /* ferret love Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +164,25 @@
 			path = Styles;
 			sourceTree = "<group>";
 		};
+		4DF7014929EF16AA003AF578 /* ferret love Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				4DF7014A29EF16AA003AF578 /* ferret_loveApp.swift */,
+				4DF7014C29EF16AA003AF578 /* ContentView.swift */,
+				4DF7014E29EF16AB003AF578 /* Assets.xcassets */,
+				4DF7015029EF16AB003AF578 /* Preview Content */,
+			);
+			path = "ferret love Watch App";
+			sourceTree = "<group>";
+		};
+		4DF7015029EF16AB003AF578 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4DF7015129EF16AB003AF578 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		4DFB8E9529B7F354006BAFA0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,14 +202,33 @@
 				4D2487C729A554C500AD4423 /* Sources */,
 				4D2487C829A554C500AD4423 /* Frameworks */,
 				4D2487C929A554C500AD4423 /* Resources */,
+				4DF7015929EF16AB003AF578 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DF7015429EF16AB003AF578 /* PBXTargetDependency */,
+			);
+			name = "Love ferret";
+			productName = "Love ferret";
+			productReference = 4D2487CB29A554C500AD4423 /* Love ferret.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DF7014729EF16AA003AF578 /* ferret love Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF7015629EF16AB003AF578 /* Build configuration list for PBXNativeTarget "ferret love Watch App" */;
+			buildPhases = (
+				4DF7014429EF16AA003AF578 /* Sources */,
+				4DF7014529EF16AA003AF578 /* Frameworks */,
+				4DF7014629EF16AA003AF578 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Love ferret";
-			productName = "Love ferret";
-			productReference = 4D2487CB29A554C500AD4423 /* Love ferret.app */;
+			name = "ferret love Watch App";
+			productName = "ferret love Watch App";
+			productReference = 4DF7014829EF16AA003AF578 /* ferret love Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -157,11 +238,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					4D2487CA29A554C500AD4423 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					4DF7014729EF16AA003AF578 = {
+						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
@@ -179,6 +263,7 @@
 			projectRoot = "";
 			targets = (
 				4D2487CA29A554C500AD4423 /* Love ferret */,
+				4DF7014729EF16AA003AF578 /* ferret love Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -191,6 +276,15 @@
 				4D2487D729A554C600AD4423 /* Preview Assets.xcassets in Resources */,
 				4D2B889F29CE530C000F5172 /* furets.json in Resources */,
 				4D2487D329A554C600AD4423 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF7014629EF16AA003AF578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF7015229EF16AB003AF578 /* Preview Assets.xcassets in Resources */,
+				4DF7014F29EF16AB003AF578 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +308,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4DF7014429EF16AA003AF578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF7014D29EF16AA003AF578 /* ContentView.swift in Sources */,
+				4DF7014B29EF16AA003AF578 /* ferret_loveApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DF7015429EF16AB003AF578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DF7014729EF16AA003AF578 /* ferret love Watch App */;
+			targetProxy = 4DF7015329EF16AB003AF578 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4D2487D829A554C600AD4423 /* Debug */ = {
@@ -331,6 +442,7 @@
 		4D2487DB29A554C600AD4423 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Love ferret/Love_ferret.entitlements";
@@ -370,6 +482,7 @@
 		4D2487DC29A554C600AD4423 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Love ferret/Love_ferret.entitlements";
@@ -406,6 +519,67 @@
 			};
 			name = Release;
 		};
+		4DF7015729EF16AB003AF578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ferret love Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Z8SC8WZT4T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ferret love";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "Elouancorp.Love-ferret";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Elouancorp.Love-ferret.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		4DF7015829EF16AB003AF578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ferret love Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Z8SC8WZT4T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ferret love";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "Elouancorp.Love-ferret";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Elouancorp.Love-ferret.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -423,6 +597,15 @@
 			buildConfigurations = (
 				4D2487DB29A554C600AD4423 /* Debug */,
 				4D2487DC29A554C600AD4423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF7015629EF16AB003AF578 /* Build configuration list for PBXNativeTarget "ferret love Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF7015729EF16AB003AF578 /* Debug */,
+				4DF7015829EF16AB003AF578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
